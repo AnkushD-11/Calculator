@@ -1,16 +1,12 @@
 # SIMPLE CALCULATOR
 
 import tkinter as tk
-import math
 import tkinter.messagebox
 from tkinter.constants import SUNKEN
-from tokenize import Exponent
-
-from numpy import number
 
 
 guiWindow = tk.Tk()
-guiWindow.geometry("400x400+0+0")  
+guiWindow.geometry("400x400+40+40")  
 guiWindow.title('Calculator-Ankush')
 Calc = tk.Frame(master=guiWindow, bg="Grey", padx=10)
 Calc.pack()
